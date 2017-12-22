@@ -2,7 +2,7 @@
 
 As _root_. `#`
 ```
-mkdir /usr/local/etc/pkg /usr/local/etc/pkg/repos ; cd /usr/local/etc/pkg/repos ; fetch https://raw.githubusercontent.com/stationgroup/etc/master/pkg/repos/FreeBSD.conf ; cd ~
+mkdir /usr/local/etc/pkg /usr/local/etc/pkg/repos ; cd /usr/local/etc/pkg/repos ; fetch https://raw.githubusercontent.com/securedefault/freebsd/master/usr/local/etc/pkg/repos/FreeBSD.conf ; cd ~
 ```
 
 Fetch may complain about certificates. _If_ it does: `pkg install ca_root_nss`
